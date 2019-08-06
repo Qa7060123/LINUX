@@ -27,7 +27,7 @@ yum install -y wget && yum install -y ca-certificates
 
 对于Debian系统还设置了四套其他的源，阿里云，CloudFront CDN，网易163，中科大的源，请根据需要使用参数一键设置如：
 
-bash superupdate.sh cn
+1.bash superupdate.sh cn
 bash superupdate.sh 163
 bash superupdate.sh aliyun
 bash superupdate.sh aws

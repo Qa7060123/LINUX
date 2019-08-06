@@ -17,9 +17,9 @@ bash superupdate.sh
 如果第一步你出现错误或执行后无任何输出，请检查是否安装wget和ca-certificates，使用命令：
 
 ## Debian、Ubuntu
-
+'''
 apt-get install -y wget && apt-get install -y ca-certificates
-
+'''
 ## CentOS
 yum install -y wget && yum install -y ca-certificates
 
@@ -27,7 +27,7 @@ yum install -y wget && yum install -y ca-certificates
 
 对于Debian系统还设置了四套其他的源，阿里云，CloudFront CDN，网易163，中科大的源，请根据需要使用参数一键设置如：
 
-1.bash superupdate.sh cn
+bash superupdate.sh cn
 bash superupdate.sh 163
 bash superupdate.sh aliyun
 bash superupdate.sh aws

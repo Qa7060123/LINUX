@@ -38,4 +38,6 @@ yum install -y wget && yum install -y ca-certificates
 
 如果配置的文件不满意，一键还原
 
+```
 bash superupdate.sh restore
+```

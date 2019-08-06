@@ -13,12 +13,13 @@ Linux相关
 wget git.io/superupdate.sh
 ## 运行脚本
 bash superupdate.sh
+
 如果第一步你出现错误或执行后无任何输出，请检查是否安装wget和ca-certificates，使用命令：
 
 ## Debian、Ubuntu
----
+
 apt-get install -y wget && apt-get install -y ca-certificates
----
+
 ## CentOS
 yum install -y wget && yum install -y ca-certificates
 
@@ -30,6 +31,7 @@ bash superupdate.sh cn
 bash superupdate.sh 163
 bash superupdate.sh aliyun
 bash superupdate.sh aws
+
 如果配置的文件不满意，一键还原
 
 bash superupdate.sh restore

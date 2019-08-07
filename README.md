@@ -2,6 +2,16 @@
 Linux相关
 
 
+# 一键更换为中文界面
+## 使用方法
+```
+Github地址：https://github.com/FunctionClub/LocaleCN
+```
+## 运行以下命令：
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/LocaleCN/master/LocaleCN.sh && bash LocaleCN.sh
+```
+## 然后重启VPS即可。
 
 # 脚本更换软件源
 使用

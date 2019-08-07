@@ -1,7 +1,17 @@
 # LINUX
 Linux相关
 
+## 测试vps性能
+```
+使用方式
 
+中文版：
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh && bash ZBench-CN.sh
+
+英文版：
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh && bash ZBench.sh
+```
+### 执行上面的命令即可，如中文版乱码请使用英文版。
 # 一键更换为中文界面
 ## 使用方法
 ```
